@@ -18,18 +18,21 @@ This is the source code for my personal website.
 
     ```
 
-## Run
+## Deploy (Local)
 
-* Run **run.sh** then access the app at <http://localhost:5000/>
+* Run [run.sh](./run.sh) then access the app at <http://localhost:5000/>
 
 ## Deploy (Heroku)
 
+1. Setup the [expected files for Python](https://devcenter.heroku.com/articles/deploying-python)
 1. Setup [Github Integration](https://devcenter.heroku.com/articles/github-integration)
 1. Push to the `master` branch
-1. Access the page using its <https://app-name.herokuapp.com> URL
+1. Access the page from its Heroku URL
 
 ## References
 
-1. <https://devcenter.heroku.com/articles/deploying-python>
-1. <https://devcenter.heroku.com/articles/github-integration>
-1. <https://github.com/datademofun/heroku-basic-flask>
+* Heroku
+    1. [Deploying Python Apps](https://devcenter.heroku.com/articles/deploying-python)
+    1. [Github Integration](https://devcenter.heroku.com/articles/github-integration)
+* Examples/Tutorials
+    1. [Deploying a simple Flask app to the cloud via Heroku](https://github.com/datademofun/heroku-basic-flask)
