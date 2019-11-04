@@ -1,0 +1,80 @@
+body {
+  height: auto;
+  color: #fff;
+  background-color: #333;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+  a {
+    color: #78bdeb; }
+    a:not(.icon) {
+      text-decoration: underline; }
+      a:hover, a:focus {
+        color: orange;
+        text-decoration: none; }
+        a:hover, a:visited, a:active {
+          text-decoration: none; }
+
+div.container-fluid {
+  margin-top: 25px;
+  margin-bottom: 50px; }
+
+  div.section-header h3 {
+    margin-top: 30px;
+    margin-bottom: 15px; }
+
+#profile-header {
+  margin-left: -20px; }
+  #profile-header #profile-picture-container {
+    text-align: center;
+    margin-bottom: 20px; }
+    #profile-header #profile-picture-container #profile-picture {
+      max-width: 160px;
+      border-radius: 80px;
+      border: 2px solid #78bdeb; }
+  #profile-header #profile-links {
+    text-align: center;
+    margin-bottom: 5px; }
+    #profile-header #profile-links i {
+      margin-left: 10px; }
+
+#about-me #about-me-description {
+  text-align: left; }
+  #about-me #about-me-description p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.925em;
+    letter-spacing: 0.4px; }
+
+#photography #album-list-caption {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.925em;
+  letter-spacing: 0.4px; }
+  #photography #album-list ul {
+    list-style: none;
+    margin-left: -40px;
+    text-align: center; }
+    #photography #album-list ul .album-list-item {
+      display: inline-block;
+      margin-top: 20px; }
+  #photography #album-list .album-cover {
+    max-width: 275px;
+    border-radius: 8px;
+    border: 2px solid #78bdeb;
+    width: 100%;
+    height: auto;
+    margin-top: 8px;
+    margin-right: 8px; }
+    #photography #album-list .album-cover:hover {
+      border: 2px solid orange; }
+
+#projects #projects-list-caption {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.925em;
+  letter-spacing: 0.4px; }
+  #projects #projects-list ul {
+    margin-left: -20px; }
+    #projects #projects-list .project {
+      font-family: 'Roboto', sans-serif;
+      font-size: 0.925em;
+      letter-spacing: 0.4px;
+      text-align: left;
+      margin-bottom: 10px; }

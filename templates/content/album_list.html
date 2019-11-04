@@ -1,0 +1,31 @@
+<div>
+  <div id="album-list-caption">
+    <p>
+      I'm mostly into scenic/landscape photography, but I'm also trying my hand at street
+      photography. Here are some of my favorite shots (each photo links to their respective
+      albums on
+      <a
+        href="https://www.flickr.com/photos/ginomempin/albums"
+        target="_blank">Flickr</a>).
+      I also randomly post on
+      <a
+        href="https://www.instagram.com/ginomempin/"
+        target="_blank">Instagram</a>.
+    </p>
+  </div>
+  <ul>
+    {% for album in albums %}
+    <li class="album-list-item">
+      <span class="album-title">{{ album.title }}</span><br/>
+      <a href="{{ album.link }}"
+        class="image"
+        target="_blank">
+        <img
+          alt="{{ album.img.name }}"
+          class="album-cover"
+          src="{{ url_for('static', filename=album.img.src) }}">
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</div>

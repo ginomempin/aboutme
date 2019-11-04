@@ -1,0 +1,22 @@
+<div>
+  <div id="projects-list-caption">
+    <p>
+      These side projects are mainly my way of teaching myself something new.
+    </p>
+  </div>
+  <ul>
+    {% for proj in projects %}
+    <li class="project">
+      <span class="project-title">
+        <a
+          href="{{ proj.link }}"
+          target="_blank">{{ proj.name }}</a>
+      </span>
+      <br>
+      <span class="project-desc">
+        {{ proj.desc }}
+      </span>
+    </li>
+    {% endfor %}
+  </ul>
+</div>

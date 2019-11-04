@@ -1,0 +1,9 @@
+{% for profile in profiles %}
+<a
+  href="{{ profile.link }}"
+  class="icon"
+  title="Gino Mempin on {{ profile.name }}"
+  target="_blank">
+  <i class="{{ profile.icon }}"></i>
+</a>
+{% endfor %}

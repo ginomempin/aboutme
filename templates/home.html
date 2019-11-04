@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+
+{% block page_css %}
+<link rel="stylesheet" media="all" href="{{ url_for('static', filename='css/home.css') }}">
+{% endblock page_css %}
+
+{% block content %}
+<div class="container-fluid">
+    <div id="profile-header">
+        <div>
+            <div id="profile-picture-container"/>
+                <div>
+                    <img
+                        id="profile-picture"
+                        alt="me.jpg"
+                        src="{{ url_for('static', filename='images/me.jpg') }}">
+                </div>
+            </div>
+            <div id="profile-links">
+                {%- include "content/profile_links.html" -%}
+            </div>
+        </div>
+    </div>
+
+    <div class="section-header">
+        <div class="col-12 col-sm-10 offset-sm-1 col-md-8 offset-md-2">
+            <h3>About Me</h3>
+        </div>
+    </div>
+    <div class="section" id="about-me">
+        <div class="col-12 col-sm-10 offset-sm-1 col-md-8 offset-md-2"
+                id="about-me-description">
+            {%- include "content/about_me_description.html" -%}
+        </div>
+    </div>
+
+    <div class="section-header">
+        <div class="col-12 col-sm-10 offset-sm-1 col-md-8 offset-md-2">
+            <h3>Photography</h3>
+        </div>
+    </div>
+    <div class="section" id="photography">
+        <div class="col-12 col-sm-10 offset-sm-1 col-md-8 offset-md-2"
+                id="album-list">
+            {%- include "content/album_list.html" -%}
+        </div>
+    </div>
+
+    <div class="section-header">
+        <div class="col-12 col-sm-10 offset-sm-1 col-md-8 offset-md-2">
+            <h3>Personal Projects</h3>
+        </div>
+    </div>
+    <div class="section" id="projects">
+        <div class="col-12 col-sm-10 offset-sm-1 col-md-8 offset-md-2"
+                id="projects-list">
+            {%- include "content/projects_list.html" -%}
+        </div>
+    </div>
+</div>
+{% endblock content %}

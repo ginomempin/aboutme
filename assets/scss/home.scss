@@ -1,0 +1,121 @@
+
+$color-border: rgb(120, 189, 235);
+$color-border-hover: rgb(255, 165, 0);
+$color-links: rgb(120, 189, 235);
+$color-links-hover: rgb(255, 165, 0);
+$color-links-to-follow: rgb(204, 103, 91);
+
+@mixin default-font() {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.925em;
+  letter-spacing: 0.40px;
+}
+
+@mixin default-img($max-width, $border-radius: 8px) {
+  max-width: $max-width;
+  border-radius: $border-radius;
+  border: 2px solid $color-border;
+}
+
+body {
+  height: auto;
+  color: #fff;
+  background-color: #333;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+}
+
+a {
+  color: $color-links;
+  &:not(.icon) {
+      text-decoration: underline;
+  }
+  &:hover, &:focus {
+    color: $color-links-hover;
+    text-decoration: none;
+  }
+  &:hover, &:visited, &:active {
+    text-decoration: none;
+  }
+}
+
+div.container-fluid {
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+div.section-header {
+  h3 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+}
+
+#profile-header {
+  margin-left: -20px;
+  #profile-picture-container {
+    text-align: center;
+    margin-bottom: 20px;
+    #profile-picture {
+      @include default-img(160px, 80px);
+    }
+  }
+  #profile-links {
+    text-align: center;
+    margin-bottom: 5px;
+    i {
+        margin-left: 10px;
+    }
+  }
+}
+
+#about-me {
+  #about-me-description {
+    text-align: left;
+    p {
+      @include default-font();
+    }
+  }
+}
+
+#photography {
+  #album-list-caption {
+    @include default-font();
+  }
+  #album-list {
+    ul {
+      list-style: none;
+      margin-left: -40px;
+      text-align: center;
+      .album-list-item {
+        display: inline-block;
+        margin-top: 20px;
+      }
+    }
+    .album-cover {
+      @include default-img(275px);
+      width: 100%;
+      height: auto;
+      margin-top: 8px;
+      margin-right: 8px;
+      &:hover {
+        border: 2px solid $color-border-hover;
+      }
+    }
+  }
+}
+
+#projects {
+  #projects-list-caption {
+    @include default-font();
+  }
+  #projects-list {
+    ul {
+      margin-left: -20px;
+    }
+    .project {
+      @include default-font();
+      text-align: left;
+      margin-bottom: 10px;
+    }
+  }
+}
