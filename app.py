@@ -121,7 +121,7 @@ projects = [
     {
         "name" : "how-to",
         "link" : "https://github.com/ginomempin/how-to",
-        "desc" : "A list of links to tutorials, templates, FAQs, and other helpful resources"
+        "desc" : "A list of links to tutorials, templates, tools, and other helpful resources"
     },
     {
         "name" : "timetracker",
@@ -137,6 +137,11 @@ projects = [
         "name" : "sample-ci-cpp",
         "link" : "https://github.com/ginomempin/sample-ci-cpp",
         "desc" : "Sample C++ project that uses Gitlab CI, CMake, googletest, and lcov"
+    },
+    {
+        "name" : "sample-dockerized-ros2-node",
+        "link" : "https://github.com/ginomempin/sample-dockerized-ros2-node",
+        "desc" : "Sample Dockerized ROS2 node and Python app"
     },
     {
         "name" : "coffeeshopph",
