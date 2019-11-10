@@ -6,7 +6,7 @@ This is the source code for my personal website.
 
 * macOS 10.13.6
 * Homebrew 2.1.15
-* Python 3.7.5, pip 19.2.3
+* Python 3.7.5
 * [requirements.txt](./requirements.txt)
 
 ## Setup
