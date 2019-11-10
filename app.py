@@ -44,19 +44,19 @@ profiles = [
 
 albums = [
     {
-        "title" : "Morocco",
-        "link"  : "https://www.flickr.com/photos/ginomempin/albums/72157711007699292",
-        "img"   : {
-            "name"  : "album-morocco.jpg",
-            "src"   : "images/album-morocco.jpg"
-        }
-    },
-    {
         "title" : "Japan (2019)",
         "link"  : "https://www.flickr.com/photos/ginomempin/albums/72157677584052267",
         "img"   : {
             "name"  : "album-japan-2019.jpg",
             "src"   : "images/album-japan-2019.jpg"
+        }
+    },
+    {
+        "title" : "Morocco",
+        "link"  : "https://www.flickr.com/photos/ginomempin/albums/72157711007699292",
+        "img"   : {
+            "name"  : "album-morocco.jpg",
+            "src"   : "images/album-morocco.jpg"
         }
     },
     {
