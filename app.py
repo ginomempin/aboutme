@@ -124,6 +124,11 @@ projects = [
         "desc" : "A list of links to tutorials, templates, tools, and other helpful resources"
     },
     {
+        "name" : "machine-learning-tutorials",
+        "link" : "https://github.com/ginomempin/machine-learning-tutorials",
+        "desc" : "A collection of notes and sample codes from Machine Learning courses/tutorials"
+    },
+    {
         "name" : "timetracker",
         "link" : "https://github.com/ginomempin/timetracker",
         "desc" : "A collection of Python apps for the workplace"
