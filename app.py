@@ -129,9 +129,9 @@ projects = [
         "desc" : "A collection of notes and sample codes from Machine Learning courses/tutorials"
     },
     {
-        "name" : "timetracker",
-        "link" : "https://github.com/ginomempin/timetracker",
-        "desc" : "A collection of Python apps for the workplace"
+        "name" : "python-tutorials",
+        "link" : "https://github.com/ginomempin/python-tutorials",
+        "desc" : "A collection of Python apps from various tutorials "
     },
     {
         "name" : "sample-ci-python",
