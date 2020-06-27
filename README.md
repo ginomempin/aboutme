@@ -4,14 +4,14 @@ This is the source code for my personal website.
 
 ## Environment
 
-* macOS 10.13.6
-* Homebrew 2.1.15
-* Python 3.7.5
+* macOS 10.15.5
+* Homebrew 2.4.0
+* Python 3.7.7
 * [requirements.txt](./requirements.txt)
 
 ## Setup
 
-1. [Install Python 3 and activate a virtual environment](https://github.com/ginomempin/how-to#python)
+1. [Install Python 3 and activate a virtual environment](https://github.com/ginomempin/how-to/blob/master/python/README.md)
 1. Install the [project dependencies](./requirements.txt):
     ```shell
     $ pip install -r requirements.txt
