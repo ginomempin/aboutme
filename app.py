@@ -11,11 +11,6 @@ Scss(app)
 
 profiles = [
     {
-        "name" : "LinkedIn",
-        "link" : "https://www.linkedin.com/in/ginomempin/",
-        "icon" : "fab fa-linkedin fa-2x",
-    },
-    {
         "name" : "Instagram",
         "link" : "https://www.instagram.com/ginomempin/",
         "icon" : "fab fa-instagram fa-2x",
@@ -31,15 +26,20 @@ profiles = [
         "icon" : "fab fa-github fa-2x",
     },
     {
+        "name" : "StackOverflow",
+        "link" : "https://stackoverflow.com/users/2745495/gino-mempin?tab=profile",
+        "icon" : "fab fa-stack-overflow fa-2x",
+    },
+    {
+        "name" : "LinkedIn",
+        "link" : "https://www.linkedin.com/in/ginomempin/",
+        "icon" : "fab fa-linkedin fa-2x",
+    },
+    {
         "name" : "Goodreads",
         "link" : "https://www.goodreads.com/ginomempin",
         "icon" : "fab fa-goodreads fa-2x",
     },
-    {
-        "name" : "StackOverflow",
-        "link" : "https://stackoverflow.com/users/2745495/gino-mempin?tab=profile",
-        "icon" : "fab fa-stack-overflow fa-2x",
-    }
 ]
 
 albums = [
