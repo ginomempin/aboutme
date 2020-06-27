@@ -1,4 +1,5 @@
 """App Instance."""
+# fmt: off
 
 from flask import Flask, render_template
 from flask_scss import Scss
@@ -124,9 +125,9 @@ projects = [
         "desc" : "A list of links to tutorials, templates, tools, and other helpful resources"
     },
     {
-        "name" : "machine-learning-tutorials",
-        "link" : "https://github.com/ginomempin/machine-learning-tutorials",
-        "desc" : "A collection of notes and sample codes from Machine Learning courses/tutorials"
+        "name" : "perfplotter",
+        "link" : "https://github.com/ginomempin/perfplotter",
+        "desc" : "A CLI tool for visualizing CSV/spreadsheet-like data"
     },
     {
         "name" : "python-tutorials",
