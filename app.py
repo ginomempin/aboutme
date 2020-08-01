@@ -32,14 +32,14 @@ profiles = [
         "icon" : "fab fa-stack-overflow fa-2x",
     },
     {
-        "name" : "LinkedIn",
-        "link" : "https://www.linkedin.com/in/ginomempin/",
-        "icon" : "fab fa-linkedin fa-2x",
-    },
-    {
         "name" : "Goodreads",
         "link" : "https://www.goodreads.com/ginomempin",
         "icon" : "fab fa-goodreads fa-2x",
+    },
+    {
+        "name" : "LinkedIn",
+        "link" : "https://www.linkedin.com/in/ginomempin/",
+        "icon" : "fab fa-linkedin fa-2x",
     },
 ]
 
@@ -130,14 +130,14 @@ projects = [
         "desc" : "A CLI tool for visualizing CSV/spreadsheet-like data"
     },
     {
-        "name" : "python-tutorials",
-        "link" : "https://github.com/ginomempin/python-tutorials",
-        "desc" : "A collection of Python apps from various tutorials "
-    },
-    {
         "name" : "sample-ci-python",
         "link" : "https://github.com/ginomempin/sample-ci-python",
         "desc" : "Sample Python project that uses Gitlab CI, pytest, and pytest-cov"
+    },
+    {
+        "name" : "sample-flask-connex-marshmallow-sqla",
+        "link" : "https://github.com/ginomempin/sample-flask-connex-marshmallow-sqla",
+        "desc" : "Sample project for a DB-backed web app using Flask + Connexion + Marshmallow + SQLAlchemy"
     },
     {
         "name" : "sample-ci-cpp",
@@ -148,6 +148,11 @@ projects = [
         "name" : "sample-dockerized-ros2-node",
         "link" : "https://github.com/ginomempin/sample-dockerized-ros2-node",
         "desc" : "Sample Dockerized ROS2 node and Python app"
+    },
+    {
+        "name" : "python-tutorials",
+        "link" : "https://github.com/ginomempin/python-tutorials",
+        "desc" : "A collection of Python apps from various tutorials "
     },
     {
         "name" : "coffeeshopph",
