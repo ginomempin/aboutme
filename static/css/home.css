@@ -41,13 +41,13 @@ div.container-fluid {
   text-align: left; }
   #about-me #about-me-description p {
     font-family: 'Roboto', sans-serif;
-    font-size: 0.925em;
-    letter-spacing: 0.4px; }
+    font-size: 1.15em;
+    letter-spacing: 0.45px; }
 
 #photography #album-list-caption {
   font-family: 'Roboto', sans-serif;
-  font-size: 0.925em;
-  letter-spacing: 0.4px; }
+  font-size: 1.15em;
+  letter-spacing: 0.45px; }
   #photography #album-list ul {
     list-style: none;
     margin-left: -40px;
@@ -68,13 +68,13 @@ div.container-fluid {
 
 #projects #projects-list-caption {
   font-family: 'Roboto', sans-serif;
-  font-size: 0.925em;
-  letter-spacing: 0.4px; }
+  font-size: 1.15em;
+  letter-spacing: 0.45px; }
   #projects #projects-list ul {
     margin-left: -20px; }
     #projects #projects-list .project {
       font-family: 'Roboto', sans-serif;
-      font-size: 0.925em;
-      letter-spacing: 0.4px;
+      font-size: 1.15em;
+      letter-spacing: 0.45px;
       text-align: left;
       margin-bottom: 10px; }

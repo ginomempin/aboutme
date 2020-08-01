@@ -7,8 +7,8 @@ $color-links-to-follow: rgb(204, 103, 91);
 
 @mixin default-font() {
   font-family: 'Roboto', sans-serif;
-  font-size: 0.925em;
-  letter-spacing: 0.40px;
+  font-size: 1.10em;
+  letter-spacing: 0.45px;
 }
 
 @mixin default-img($max-width, $border-radius: 8px) {
