@@ -1,6 +1,6 @@
 import os
 
-SCSS_ASSET_DIR  = 'assets'
+SCSS_ASSET_DIR = 'assets'
 SCSS_STATIC_DIR = 'static'
 
 # The site does not really need CSRF protection since
