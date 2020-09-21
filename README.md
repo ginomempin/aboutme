@@ -7,14 +7,14 @@ This is the source code for my personal website.
 * macOS 10.15.5
 * Python 3.8.5
 * Flask 1.1.2
-* [requirements.txt](./requirements.txt)
+* [Heroku + Github Deploys](https://devcenter.heroku.com/articles/github-integration)
 
 ## Setup
 
 1. [Install Python 3 and activate a virtual environment](https://github.com/ginomempin/how-to/blob/master/python/README.md)
 1. Install the [project dependencies](./requirements.txt):
     ```shell
-    $ pip install -r requirements.txt
+    $ pipenv install --dev --python=$(which python3.8)
 
     ```
 
