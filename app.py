@@ -135,6 +135,11 @@ projects = [
         "desc": "Sample Python project that uses Gitlab CI, pytest, and pytest-cov"
     },
     {
+        "name": "sample-flask-with-kubernetes",
+        "link": "https://github.com/ginomempin/sample-flask-with-kubernetes",
+        "desc": "Sample project for a Flask app deployed with Kubernetes"
+    },
+    {
         "name": "sample-flask-connex-marshmallow-sqla",
         "link": "https://github.com/ginomempin/sample-flask-connex-marshmallow-sqla",
         "desc": "Sample project for a DB-backed web app using Flask + Connexion + Marshmallow + SQLAlchemy"

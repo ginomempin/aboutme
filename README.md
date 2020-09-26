@@ -4,7 +4,7 @@ This is the source code for my personal website.
 
 ## Environment
 
-* macOS 10.15.5
+* macOS 10.15.7
 * Python 3.8.5
 * Flask 1.1.2
 * [Heroku + Github Deploys](https://devcenter.heroku.com/articles/github-integration)
@@ -20,7 +20,11 @@ This is the source code for my personal website.
 
 ## Deploy (Local)
 
-* Run [run.sh](./run.sh) then access the app at <http://localhost:5000/>
+```
+$ pipenv run local
+```
+
+Then access the app at <http://localhost:5000/>
 
 ## Deploy (Heroku)
 
