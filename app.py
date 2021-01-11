@@ -1,5 +1,4 @@
 """App Instance."""
-# fmt: off
 
 from flask import Flask, render_template
 from flask_scss import Scss
