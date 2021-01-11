@@ -45,6 +45,14 @@ profiles = [
 
 albums = [
     {
+        "title": "Japan (2020)",
+        "link": "https://www.flickr.com/photos/ginomempin/albums/72157717171944347",
+        "img": {
+            "name": "album-japan-2020.jpg",
+            "src": "images/album-japan-2020.jpg"
+        }
+    },
+    {
         "title": "Japan (2019)",
         "link": "https://www.flickr.com/photos/ginomempin/albums/72157677584052267",
         "img": {
@@ -90,14 +98,6 @@ albums = [
         "img": {
             "name": "album-borobodur.jpg",
             "src": "images/album-borobodur.jpg"
-        }
-    },
-    {
-        "title": "Japan (2016)",
-        "link": "https://www.flickr.com/photos/ginomempin/albums/72157663526941174/",
-        "img": {
-            "name": "album-japan-2016.jpg",
-            "src": "images/album-japan-2016.jpg"
         }
     },
     {
