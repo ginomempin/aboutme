@@ -5,7 +5,7 @@ This is the source code for my personal website.
 ## Environment
 
 * macOS 10.15.7
-* Python 3.8.7
+* Python 3.8.8
 * Flask 1.1.2
 * [Heroku + Github Deploys](https://devcenter.heroku.com/articles/github-integration)
 
