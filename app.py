@@ -154,11 +154,6 @@ projects = [
         "desc": "Sample Dockerized ROS2 node and Python app"
     },
     {
-        "name": "python-tutorials",
-        "link": "https://github.com/ginomempin/python-tutorials",
-        "desc": "A collection of Python apps from various tutorials "
-    },
-    {
         "name": "coffeeshopph",
         "link": "https://github.com/ginomempin/coffeeshopph-web",
         "desc": "A Ruby on Rails web app for managing the operations of a cafe or a restaurant"
