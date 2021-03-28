@@ -10,7 +10,6 @@ yapf = "*"
 
 [packages]
 flask = "*"
-flask-scss = "*"
 pyscss = "*"
 gunicorn = "*"
 

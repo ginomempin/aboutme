@@ -1,13 +1,11 @@
 """App Instance."""
 
 from flask import Flask, render_template
-from flask_scss import Scss
 
 app = Flask(__name__)
 app.config.from_object('config')
 app.jinja_env.trim_blocks = True
 app.jinja_env.lstrip_blocks = True
-Scss(app)
 
 profiles = [
     {
