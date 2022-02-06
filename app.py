@@ -42,6 +42,14 @@ profiles = [
 
 albums = [
     {
+        "title": "Japan (2021)",
+        "link": "https://www.flickr.com/photos/ginomempin/albums/72177720296319659",
+        "img": {
+            "name": "album-japan-2021.jpg",
+            "src": "images/album-japan-2021.jpg"
+        }
+    },
+    {
         "title": "Japan (2020)",
         "link": "https://www.flickr.com/photos/ginomempin/albums/72157717171944347",
         "img": {
@@ -83,7 +91,7 @@ albums = [
     },
     {
         "title": "Hong Kong",
-        "link": "https://www.flickr.com/photos/ginomempin/albums/72157676416833436/",
+        "link": "https://www.flickr.com/photos/ginomempin/albums/72157676416833436",
         "img": {
             "name": "album-hongkong.jpg",
             "src": "images/album-hongkong.jpg"
@@ -91,7 +99,7 @@ albums = [
     },
     {
         "title": "Borobodur",
-        "link": "https://www.flickr.com/photos/ginomempin/albums/72157671800357955/",
+        "link": "https://www.flickr.com/photos/ginomempin/albums/72157671800357955",
         "img": {
             "name": "album-borobodur.jpg",
             "src": "images/album-borobodur.jpg"
@@ -99,7 +107,7 @@ albums = [
     },
     {
         "title": "Siem Reap",
-        "link": "https://www.flickr.com/photos/ginomempin/albums/72157647928260390/",
+        "link": "https://www.flickr.com/photos/ginomempin/albums/72157647928260390",
         "img": {
             "name": "album-siemreap.jpg",
             "src": "images/album-siemreap.jpg"
@@ -107,7 +115,7 @@ albums = [
     },
     {
         "title": "Seoul",
-        "link": "https://www.flickr.com/photos/ginomempin/albums/72157638210694503/",
+        "link": "https://www.flickr.com/photos/ginomempin/albums/72157638210694503",
         "img": {
             "name": "album-seoul.jpg",
             "src": "images/album-seoul.jpg"
