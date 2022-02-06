@@ -9,7 +9,7 @@ mypy = "*"
 yapf = "*"
 
 [packages]
-flask = "*"
+flask = ">=2"
 pyscss = "*"
 gunicorn = "*"
 
