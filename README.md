@@ -4,7 +4,7 @@ This is the source code for my personal website.
 
 ## Environment
 
-* Python 3.9
+* Python 3.10
 * Flask 2.0.x
 * [Heroku + Github Deploys](https://devcenter.heroku.com/articles/github-integration)
 
