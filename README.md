@@ -5,7 +5,7 @@ This is the source code for my personal website.
 ## Environment
 
 * Python 3.9
-* Flask 2.0.2
+* Flask 2.0.x
 * [Heroku + Github Deploys](https://devcenter.heroku.com/articles/github-integration)
 
 ## Setup
@@ -13,14 +13,13 @@ This is the source code for my personal website.
 1. [Install Python 3 and activate a virtual environment](https://github.com/ginomempin/how-to/blob/master/python/README.md)
 1. Install the [project dependencies](./Pipfile):
     ```shell
-    $ pipenv install --dev --python=$(which python3.9)
-
+    $ poetry install --dev --no-root
     ```
 
 ## Deploy (Local)
 
 ```shell
-$ pipenv run local
+$ ./run.sh
 ```
 
 Then access the app at <http://localhost:5000/>
@@ -28,6 +27,10 @@ Then access the app at <http://localhost:5000/>
 ## Deploy (Heroku)
 
 1. Setup the [expected files for Python](https://devcenter.heroku.com/articles/deploying-python)
+    * Generate `requirements.txt`
+        ```
+        $ poetry export --format=requirements.txt --without=dev --output=requirements.txt
+        ```
 1. Setup [Github Integration](https://devcenter.heroku.com/articles/github-integration)
 1. Push to the `master` branch
 1. Access the page from its Heroku URL

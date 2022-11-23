@@ -3,7 +3,7 @@
 from flask import Flask, render_template
 
 app = Flask(__name__)
-app.config.from_object('config')
+app.config.from_object("config")
 app.jinja_env.trim_blocks = True
 app.jinja_env.lstrip_blocks = True
 
@@ -46,80 +46,80 @@ albums = [
         "link": "https://www.flickr.com/photos/ginomempin/albums/72177720296319659",
         "img": {
             "name": "album-japan-2021.jpg",
-            "src": "images/album-japan-2021.jpg"
-        }
+            "src": "images/album-japan-2021.jpg",
+        },
     },
     {
         "title": "Japan (2020)",
         "link": "https://www.flickr.com/photos/ginomempin/albums/72157717171944347",
         "img": {
             "name": "album-japan-2020.jpg",
-            "src": "images/album-japan-2020.jpg"
-        }
+            "src": "images/album-japan-2020.jpg",
+        },
     },
     {
         "title": "Japan (2019)",
         "link": "https://www.flickr.com/photos/ginomempin/albums/72157677584052267",
         "img": {
             "name": "album-japan-2019.jpg",
-            "src": "images/album-japan-2019.jpg"
-        }
+            "src": "images/album-japan-2019.jpg",
+        },
     },
     {
         "title": "Morocco",
         "link": "https://www.flickr.com/photos/ginomempin/albums/72157711007699292",
         "img": {
             "name": "album-morocco.jpg",
-            "src": "images/album-morocco.jpg"
-        }
+            "src": "images/album-morocco.jpg",
+        },
     },
     {
         "title": "Japan (2018)",
         "link": "https://www.flickr.com/photos/ginomempin/albums/72157665104122898",
         "img": {
             "name": "album-japan-2018.jpg",
-            "src": "images/album-japan-2018.jpg"
-        }
+            "src": "images/album-japan-2018.jpg",
+        },
     },
     {
         "title": "Japan (2017)",
         "link": "https://www.flickr.com/photos/ginomempin/albums/72157681325385125",
         "img": {
             "name": "album-japan-2017.jpg",
-            "src": "images/album-japan-2017.jpg"
-        }
+            "src": "images/album-japan-2017.jpg",
+        },
     },
     {
         "title": "Hong Kong",
         "link": "https://www.flickr.com/photos/ginomempin/albums/72157676416833436",
         "img": {
             "name": "album-hongkong.jpg",
-            "src": "images/album-hongkong.jpg"
-        }
+            "src": "images/album-hongkong.jpg",
+        },
     },
     {
         "title": "Borobodur",
         "link": "https://www.flickr.com/photos/ginomempin/albums/72157671800357955",
         "img": {
             "name": "album-borobodur.jpg",
-            "src": "images/album-borobodur.jpg"
-        }
+            "src": "images/album-borobodur.jpg",
+        },
     },
     {
         "title": "Siem Reap",
         "link": "https://www.flickr.com/photos/ginomempin/albums/72157647928260390",
         "img": {
             "name": "album-siemreap.jpg",
-            "src": "images/album-siemreap.jpg"
-        }
+            "src": "images/album-siemreap.jpg",
+        },
     },
     {
         "title": "Seoul",
         "link": "https://www.flickr.com/photos/ginomempin/albums/72157638210694503",
         "img": {
             "name": "album-seoul.jpg",
-            "src": "images/album-seoul.jpg"
-        }
+            "src": "images/album-seoul.jpg",
+        },
     },
 ]
 
@@ -127,47 +127,52 @@ projects = [
     {
         "name": "how-to",
         "link": "https://github.com/ginomempin/how-to",
-        "desc": "A list of links to tutorials, templates, tools, and other helpful resources"
-    },
-    {
-        "name": "perfplotter",
-        "link": "https://github.com/ginomempin/perfplotter",
-        "desc": "A CLI tool for visualizing CSV/spreadsheet-like data"
+        "desc": "A list of links to tutorials, templates, tools, and other helpful resources",
     },
     {
         "name": "sample-ci-python",
         "link": "https://github.com/ginomempin/sample-ci-python",
-        "desc": "Sample Python project that uses Gitlab CI, pytest, and pytest-cov"
+        "desc": "Sample Python project that uses Gitlab CI, pytest, and pytest-cov",
     },
     {
         "name": "sample-flask-with-kubernetes",
         "link": "https://github.com/ginomempin/sample-flask-with-kubernetes",
-        "desc": "Sample project for a Flask app deployed with Kubernetes"
+        "desc": "Sample project for a Flask app deployed with Kubernetes",
     },
     {
         "name": "sample-flask-connex-marshmallow-sqla",
         "link": "https://github.com/ginomempin/sample-flask-connex-marshmallow-sqla",
-        "desc": "Sample project for a DB-backed web app using Flask + Connexion + Marshmallow + SQLAlchemy"
+        "desc": "Sample project for a DB-backed web app using Flask + Connexion + Marshmallow + SQLAlchemy",
     },
     {
         "name": "sample-ci-cpp",
         "link": "https://github.com/ginomempin/sample-ci-cpp",
-        "desc": "Sample C++ project that uses Gitlab CI, CMake, googletest, and lcov"
+        "desc": "Sample C++ project that uses Gitlab CI, CMake, googletest, and lcov",
     },
     {
         "name": "sample-dockerized-ros2-node",
         "link": "https://github.com/ginomempin/sample-dockerized-ros2-node",
-        "desc": "Sample Dockerized ROS2 node and Python app"
+        "desc": "Sample Dockerized ROS2 node and Python app",
+    },
+    {
+        "name": "perfplotter",
+        "link": "https://github.com/ginomempin/perfplotter",
+        "desc": "A CLI tool for visualizing CSV/spreadsheet-like data",
     },
     {
         "name": "coffeeshopph",
         "link": "https://github.com/ginomempin/coffeeshopph-web",
-        "desc": "A Ruby on Rails web app for managing the operations of a cafe or a restaurant"
+        "desc": "A Ruby on Rails web app for managing the operations of a cafe or a restaurant",
     },
 ]
 
 
-@app.route('/')
+@app.route("/")
 def home():
     """Render the home page."""
-    return render_template('home.html', profiles=profiles, albums=albums, projects=projects)
+    return render_template(
+        "home.html",
+        profiles=profiles,
+        albums=albums,
+        projects=projects,
+    )
