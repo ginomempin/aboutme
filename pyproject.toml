@@ -6,7 +6,7 @@ authors = ["gino <gino.mempin@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-flask = "~=2.0.0"
+flask = "~=2.3.2"
 gunicorn = "~=20.1.0"
 pyscss = "==1.3.7"
 python = "^3.10"
